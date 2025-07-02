@@ -1,4 +1,4 @@
-<circuit version="1.1.0-SR0" rev="1936" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+<circuit version="1.1.0-SR1" rev="2069" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
 <item itemtype="Resistor" CircId="Resistor-2" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-192,-212" rotation="0" hflip="1" vflip="1" label="Resistor-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10000 Ω" />
 
@@ -8,8 +8,8 @@
 
 <item itemtype="Push" CircId="Push-24" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,-332" rotation="0" hflip="1" vflip="1" label="Push-24" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
 
-<item itemtype="Subcircuit" CircId="Uno-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-96,-276" rotation="0" hflip="1" vflip="1" label="Uno-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
-<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+<item itemtype="Subcircuit" CircId="Uno-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-96,-276" rotation="0" hflip="1" vflip="1" label="Uno-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="busPointFirmware.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
 </item>
 
 <item itemtype="Resistor" CircId="Resistor-37" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-124,-284" rotation="0" hflip="1" vflip="1" label="Resistor-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10000 Ω" />
@@ -18,11 +18,11 @@
 
 <item itemtype="Resistor" CircId="Resistor-42" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-12,-312" rotation="0" hflip="1" vflip="1" label="Resistor-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10000 Ω" />
 
-<item itemtype="Image" CircId="Image-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-224,-304" rotation="0" hflip="1" vflip="1" label="Image-45" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="60 _px" V_size="60 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" Image_File="../Downloads/WhatsApp Image 2025-06-19 at 10.53.36.jpeg" />
+<item itemtype="Image" CircId="Image-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-208,-264" rotation="0" hflip="1" vflip="1" label="Image-45" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="220 _px" V_size="75 _px" Border="2 _px" Z_Value="103" Color="#a0a0a4" Opacity="1" Image_File=".imgs/line2.jpeg" />
 
-<item itemtype="Image" CircId="Image-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,-52" rotation="0" hflip="1" vflip="1" label="Image-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="60 _px" V_size="60 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" Image_File="../Downloads/WhatsApp Image 2025-06-19 at 10.53.22.jpeg" />
+<item itemtype="Image" CircId="Image-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-140" rotation="0" hflip="1" vflip="1" label="Image-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="220 _px" V_size="75 _px" Border="2 _px" Z_Value="103" Color="#a0a0a4" Opacity="1" Image_File=".imgs/line1.jpeg" />
 
-<item itemtype="Image" CircId="Image-47" mainComp="false" Show_id="false" Show_Val="false" Pos="84,-324" rotation="0" hflip="1" vflip="1" label="Image-47" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="60 _px" V_size="60 _px" Border="2 _px" Z_Value="-1" Color="#a0a0a4" Opacity="1" Image_File="../Downloads/WhatsApp Image 2025-06-19 at 10.53.48.jpeg" />
+<item itemtype="Image" CircId="Image-47" mainComp="false" Show_id="false" Show_Val="false" Pos="48,-280" rotation="0" hflip="1" vflip="1" label="Image-47" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" H_size="220 _px" V_size="75 _px" Border="2 _px" Z_Value="101" Color="#a0a0a4" Opacity="1" Image_File=".imgs/line3.jpeg" />
 
 <item itemtype="Node" CircId="Node-20" mainComp="false" Pos="-152,-168" />
 
