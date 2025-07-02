@@ -1,0 +1,8 @@
+MAS point {
+	infrastructure: Centralised
+	agents:
+		agentPonto agentArchClass Communicator;
+		agentPontoarduino agentArchClass jason.Argo;
+	aslSourcePath:
+		"asl";
+}

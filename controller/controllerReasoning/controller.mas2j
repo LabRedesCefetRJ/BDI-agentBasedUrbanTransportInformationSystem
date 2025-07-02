@@ -1,0 +1,7 @@
+MAS controller {
+	infrastructure: Centralised
+	agents:
+		controller agentArchClass Communicator;
+	aslSourcePath:
+		"asl";
+}

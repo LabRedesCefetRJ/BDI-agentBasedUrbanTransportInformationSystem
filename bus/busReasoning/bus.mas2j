@@ -1,0 +1,8 @@
+MAS bus {
+	infrastructure: Centralised
+	agents:
+		agentBus agentArchClass jason.Argo;
+		agentBusC agentArchClass Communicator;
+	aslSourcePath:
+		"asl";
+}
