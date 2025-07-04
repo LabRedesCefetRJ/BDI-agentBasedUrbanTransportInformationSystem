@@ -35,15 +35,24 @@ void getRawData(){
 }
 
 void getPercepts(){
+ javino.addPercept("destination(1)");
  javino.addPercept("device(bus)");
- if(gps.location.isValid()) {
-	javino.addPercept("latitude("+String(gps.location.lat(), 6)+")");
-	javino.addPercept("longitude("+String(gps.location.lng(), 6)+")");
+ if(in){
+	javino.addPercept("passager(in)");
+    in=false;
  }
- if(in) javino.addPercept("passager(in)");
- if(out) javino.addPercept("passager(out)");
- if(stop) javino.addPercept("bus(stopped)");
- else javino.addPercept("bus(running)");
+ if(out){
+	javino.addPercept("passager(out)");
+	out=false;
+ }
+ if(stop) javino.addPercept("busStatus(stopped)");
+ else{
+  javino.addPercept("busStatus(running)");
+  if(gps.location.isValid()) {
+   javino.addPercept("latitude("+String(gps.location.lat(), 6)+")");
+   javino.addPercept("longitude("+String(gps.location.lng(), 6)+")");
+  }
+ }
 }
 
 

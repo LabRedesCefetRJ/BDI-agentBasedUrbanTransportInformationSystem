@@ -30,8 +30,6 @@
 
 <item itemtype="Node" CircId="Node-76" mainComp="false" Pos="684,-292" />
 
-<item itemtype="Connector" uid="Connector-113" startpinid="Nano-8-GND0" endpinid="Uno-1-GND2" pointList="504,-224,504,-260,660,-260,660,-248" />
-
 <item itemtype="Connector" uid="Connector-115" startpinid="Uno-1-0" endpinid="SerialPort-2-pin0" pointList="780,-248,780,-268,824,-268,824,-264" />
 
 <item itemtype="Connector" uid="Connector-116" startpinid="Uno-1-1" endpinid="SerialPort-2-pin1" pointList="772,-248,772,-272,808,-272,808,-264" />
@@ -48,8 +46,6 @@
 
 <item itemtype="Connector" uid="Connector-215" startpinid="Push-52-switch0pinN" endpinid="Uno-1-2" pointList="768,-396,764,-396,764,-248" />
 
-<item itemtype="Connector" uid="Connector-236" startpinid="Uno-1-5V0" endpinid="Node-75-0" pointList="700,-104,700,-92,796,-92,796,-292,772,-292" />
-
 <item itemtype="Connector" uid="Connector-238" startpinid="Node-75-1" endpinid="Push-52-pinP0" pointList="772,-292,772,-376,804,-376,804,-396,800,-396" />
 
 <item itemtype="Connector" uid="Connector-239" startpinid="Push-21-pinP0" endpinid="Node-76-1" pointList="708,-396,708,-372,684,-372,684,-292" />
@@ -57,5 +53,9 @@
 <item itemtype="Connector" uid="Connector-240" startpinid="Node-75-2" endpinid="Node-76-0" pointList="772,-292,684,-292" />
 
 <item itemtype="Connector" uid="Connector-241" startpinid="Node-76-2" endpinid="Switch-55-pinP0" pointList="684,-292,580,-292,580,-380,604,-380,604,-396" />
+
+<item itemtype="Connector" uid="Connector-254" startpinid="Uno-1-5V0" endpinid="Node-75-0" pointList="700,-104,700,-92,796,-92,796,-292,772,-292" />
+
+<item itemtype="Connector" uid="Connector-255" startpinid="Nano-8-GND0" endpinid="Uno-1-GND2" pointList="504,-224,504,-260,660,-260,660,-248" />
 
 </circuit>
