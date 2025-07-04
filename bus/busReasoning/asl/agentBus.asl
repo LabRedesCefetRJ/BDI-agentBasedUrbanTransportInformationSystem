@@ -1,5 +1,5 @@
-busStatus(A,B,C,D,E) :- busStatus(A) & latitude(B) & longitude(C) & passagerLimit(D) & destination(E).
-passagerLimit(45).
+busStatus(A,B,C,D,E) :- busStatus(A) & lat(B) & lng(C) & seats(D) & dest(E).
+seats(45).
 serialPort(ttyEmulatedPort0).		/* when using the simulIDE */
 //serialPort(ttyUSB0).			/* when using an arduino board */
 
@@ -10,15 +10,15 @@ serialPort(ttyEmulatedPort0).		/* when using the simulIDE */
 	.limit(500); 
 	.percepts(open).
 
-+passager(in) <- ?passagerLimit(L); -+passagerLimit(L-1).
-+passager(out) <- ?passagerLimit(L); -+passagerLimit(L+1).
++passager(in) <- ?seats(L); -+seats(L-1).
++passager(out) <- ?seats(L); -+seats(L+1).
 
 /*****************************/
-+passagerLimit(V): V<=45 <- .print("Seats ",V).
-+passagerLimit(V): V>45 <- -+passagerLimit(45).
++seats(V): V<=45 <- .print("Seats ",V).
++seats(V): V>45 <- -+seats(45).
 +busStatus(S) <- .print("The bus is ",S).
-+destination(D) <- .print("Destination is: ",D).
++dest(D) <- .print("Destination is: ",D).
 +device(N) <- .print("Controlling the device: ",N).
-//+latitude(Lat) <- .print("Latitude: ",Lat).
-//+longitude(Long)<- .print("Longitude:",Long).
++lat(Lat) <- .print("Latitude: ",Lat).
++lng(Long)<- .print("Longitude:",Long).
 +port(P,S) <- .print("Serial port ",P," is ",S).
