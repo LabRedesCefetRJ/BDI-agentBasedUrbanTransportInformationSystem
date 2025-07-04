@@ -1,5 +1,5 @@
-serialPort(ttyEmulatedPort2).		/* when using the simulIDE */
-//serialPort(ttyUSB2).			/* when using an arduino board */
+serialPort(ttyEmulatedPort1).		/* when using the simulIDE */
+//serialPort(ttyUSB1).			/* when using an arduino board */
  
 !start.
  
@@ -8,5 +8,11 @@ serialPort(ttyEmulatedPort2).		/* when using the simulIDE */
 	.limit(1000); 
 	.percepts(open).
  
-+viagem(V) <-
-	.send(agentPonto, achieve, viagem(V)).
++dest(V) <-
+	.print("Requesting info to ",V);
+	.send(agentPonto, achieve, getInfo(V)).
+
+	/*****************************/
++dest(D) <- .print("Destination is: ",D).
++device(N) <- .print("Controlling the device: ",N).
++port(P,S) <- .print("Serial port ",P," is ",S).
