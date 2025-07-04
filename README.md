@@ -1,95 +1,95 @@
-# 🚌 BusAI: Sistema Inteligente de Informação ao Passageiro
+# 🚌 BusAI: Intelligent Passenger Information System
 
-Projeto multiagente baseado no modelo BDI, desenvolvido com Jason, Javino e Arduino, com o objetivo de fornecer **informações dinâmicas e confiáveis aos passageiros** sobre localização, ocupação e estado dos ônibus em tempo real.
-
----
-
-## 🧠 Arquitetura de Agentes
-
-O sistema é composto por três agentes principais:
-
-### 🔵 Agente Ônibus
-
-- Representa um ônibus em tempo real.
-- Responsável por enviar:
-  - Localização geográfica
-  - Lotação atual
-  - Status de funcionamento
-- Imagem ilustrativa:
-  ![Agente Ônibus](imagens/BusCommunicator.png)
-  ![Agente Ônibus](imagens/Busimg2.png)
+A multi-agent project based on the BDI model, developed with Jason, Javino, and Arduino, aiming to provide **dynamic and reliable information to passengers** about bus location, occupancy, and status.
 
 ---
 
-### 🟣 Agente Ponto
+## 🧠 Agent Architecture
 
-- Simula o totem da parada de ônibus.
-- Interage com o passageiro fornecendo:
-  - Tempo estimado de chegada
-  - Lotação do próximo veículo
-  - Avisos de falhas
-- Imagem ilustrativa:
-  ![Agente Ponto](imagens/codigo-agentPontoCommunicator.png)
-  ![Agente Ponto](imagens/ArgoPonto.png)
+The system is composed of three main agents:
 
----
+### 🔵 Bus Agent
 
-### 🟢 Agente Coordenador
-
-- Garante a consistência das informações entre ônibus e ponto.
-- Responsável por:
-  - Gerenciar fluxo de dados
-- Imagem ilustrativa:
-  ![Agente Coordenador](imagens/Controller.png)
+- Represents a bus in real time.
+- Responsible for sending:
+  - Geographic location
+  - Current occupancy
+  - Operating status
+- Illustrative images:
+  ![Bus Agent](imagens/BusCommunicator.png)
+  ![Bus Agent](imagens/Busimg2.png)
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+### 🟣 Stop Agent
 
-- **Jason**: desenvolvimento dos agentes BDI (AgentSpeak(L))
-- **Javino**: comunicação com sensores e integração futura com Arduino
-- **ChonIDE**: desenvolvimento e depuração dos agentes
-- **Arduino**: leitura de sensores (ex: botão de parada, distância, lotação)
-
----
-
-## 🖼️ Ilustrações do Projeto
-
-- Interações do Bus
-  ![Arduino Ponto](imagens/ResultadoInteraçãoBus.png)
-
-- Arduino do Agente Bus
-  ![Arduino Ponto](imagens/ArduinoBus.png)
-
-- Código Arduino do Agente Ponto
-  ![Arduino Ponto](imagens/ArduinoPonto.png)
+- Simulates the bus stop totem.
+- Interacts with the passenger providing:
+  - Estimated arrival time
+  - Occupancy of the next vehicle
+  - Failure alerts
+- Illustrative images:
+  ![Stop Agent](imagens/codigo-agentPontoCommunicator.png)
+  ![Stop Agent](imagens/ArgoPonto.png)
 
 ---
 
-## 🎥 Demonstração em Vídeo
+### 🟢 Coordinator Agent
 
-Assista a uma demonstração do projeto em funcionamento no vídeo abaixo:
-
-REMOVIDO PARA AVALIÇÃO CEGA...
-
----
-
-## ⚙️ Funcionamento Geral
-
-O sistema responde ao passageiro da seguinte forma:
-
-1. O passageiro interage com o totem (Agente Ponto)
-2. O totem requisita dados do Agente Coordenador
-3. O Coordenador consulta os Agentes Ônibus
-4. O passageiro recebe informações de:
-   - Previsão de chegada
-   - Lotação
-   - Falhas no veículo
+- Ensures the consistency of information between bus and stop.
+- Responsible for:
+  - Managing data flow
+- Illustrative image:
+  ![Coordinator Agent](imagens/Controller.png)
 
 ---
 
-## 👨‍💻 Autores
+## 🔧 Technologies Used
 
-REMOVIDO PARA AVALIAÇÃO CEGA
+- **Jason**: development of BDI agents (AgentSpeak(L))
+- **Javino**: communication with sensors and future integration with Arduino
+- **ChonIDE**: development and debugging of agents
+- **Arduino**: sensor reading (e.g., stop button, distance, occupancy)
+
+---
+
+## 🖼️ Project Illustrations
+
+- Bus Interactions
+  ![Arduino Stop](imagens/ResultadoInteraçãoBus.png)
+
+- Bus Agent Arduino
+  ![Arduino Stop](imagens/ArduinoBus.png)
+
+- Stop Agent Arduino Code
+  ![Arduino Stop](imagens/ArduinoPonto.png)
+
+---
+
+## 🎥 Video Demonstration
+
+Watch a demonstration of the project in action in the video below:
+
+REMOVED FOR BLIND REVIEW...
+
+---
+
+## ⚙️ General Operation
+
+The system responds to the passenger as follows:
+
+1. The passenger interacts with the totem (Stop Agent)
+2. The totem requests data from the Coordinator Agent
+3. The Coordinator queries the Bus Agents
+4. The passenger receives information about:
+   - Arrival prediction
+   - Occupancy
+   - Vehicle failures
+
+---
+
+## 👨‍💻 Authors
+
+REMOVED FOR BLIND REVIEW
 
 ---
