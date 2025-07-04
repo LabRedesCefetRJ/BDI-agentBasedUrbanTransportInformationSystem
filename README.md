@@ -70,7 +70,7 @@ O sistema é composto por três agentes principais:
 
 Assista a uma demonstração do projeto em funcionamento no vídeo abaixo:
 
-[![Demonstração do Projeto BusAI](imgVideo.png)](https://youtu.be/uOyHntRWVt4?si=flDpGJH3AXOwFu8c)
+REMOVIDO PARA AVALIÇÃO CEGA...
 
 ---
 
@@ -90,7 +90,6 @@ O sistema responde ao passageiro da seguinte forma:
 
 ## 👨‍💻 Autores
 
-- **Andrei Silva Serafim Wermelinger**
-- **Lucas Pontes Lira**
+REMOVIDO PARA AVALIAÇÃO CEGA
 
 ---
