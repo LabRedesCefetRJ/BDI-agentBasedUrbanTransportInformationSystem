@@ -1,9 +1,10 @@
-iotGateway("10.0.3.9",5500).
+iotGateway("skynet.chon.group",5500).
 myUUID("0a99ff05-1308-41a3-a752-173224698233").
 !connect.
 
 +!connect: iotGateway(Server,Port) & myUUID(ID) <- 
-	.connectCN(Server,Port,ID).
+	.connectCN(Server,Port,ID);
+	.print("Connected!").
 
 +!busRunning(Status,Latitude,Longitude,Seats,Destination)[source(UUID)] <-
 	.abolish(fleet(UUID,_,_,_,_,_));

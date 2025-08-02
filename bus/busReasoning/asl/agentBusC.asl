@@ -1,5 +1,4 @@
-//.connectCN("skynet.chon.group", 5500, "ba0cd5ba-70ab-49b7-90b3-2bedac71a8da");
-iotGateway("10.0.3.9",5500).
+iotGateway("skynet.chon.group",5500).
 myUUID("ba0cd5ba-70ab-49b7-90b3-2bedac71a8da").
 controllerUUID("0a99ff05-1308-41a3-a752-173224698233").
 destination(1). //centro
