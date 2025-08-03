@@ -70,7 +70,7 @@ The system is composed of three main agents:
 
 Watch a demonstration of the project in action in the video below:
 
-REMOVED FOR BLIND REVIEW...
+- [https://youtu.be/Soi_GseQZrw?si=wFRLqCLAroHTtYZP](https://youtu.be/Soi_GseQZrw?si=wFRLqCLAroHTtYZP)
 
 ---
 
@@ -90,6 +90,12 @@ The system responds to the passenger as follows:
 
 ## 👨‍💻 Authors
 
-REMOVED FOR BLIND REVIEW
+Lucas Lira, Andrei Serafim, Nilson Lazarin, Bruno Freitas, Carlos Pantoja
+
+Bacharelado em Sistemas de Informação 
+
+Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (Cefet/RJ) 
+
+Nova Friburgo, RJ -- Brazil
 
 ---
